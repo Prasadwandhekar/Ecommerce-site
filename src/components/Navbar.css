@@ -1,0 +1,86 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 6;
+    
+
+}
+.img{
+    margin-left: 200px;
+    /* height: 100px; */
+    border-radius: 100px;
+    /* width: 50px; */
+    height: 50px;
+    max-width: 100px;
+    margin-top: 3px;
+}
+.brand{
+    margin-top: -40px;
+    margin-left: 70px;
+    font-family: bold;
+    color: rgb(170, 214, 9);
+    font-size:x-large;
+    
+}
+
+.img1{
+    border-radius: 100px;
+    /* height: 50px; */
+    /* width: 90px; */
+    height: 50px;
+    width: 60px;
+}
+
+.bar{
+      display: flex;
+      align-items: center;
+      font-weight:medium;
+      color:white ;
+      margin-right:200px;
+      gap: 50px;
+}
+.bar:hover{
+    color: sandybrown;
+}
+
+.home{
+    color: white;
+    border: black;
+}
+.home:hover{
+    color: sandybrown;
+    cursor: pointer;
+}
+.cart{
+    color: white;
+}
+.cart:hover{
+    color: brown;
+}
+
+.facar{
+     position: relative;
+     text-align: 2;
+}
+.len{
+    position: absolute;
+    top: 1;
+    right: 2;
+    background-color: green;
+    font-weight: x;
+    width: 20px;
+    height: 20px;
+     display: flex;
+     align-items: center;   
+     justify-content: center;
+    animation: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    border-radius: 50%;
+    color: white;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+

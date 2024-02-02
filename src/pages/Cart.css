@@ -1,0 +1,75 @@
+.carts{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin-left: 50px;
+    width: 100vw;
+    
+
+}
+.item{
+    width: 450px;
+    margin-left:100px;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+   
+}
+.sum{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.ca{
+    color: green;
+    font-weight: 600;
+}
+.su{
+    color:rgb(23, 135, 38);
+    margin-left: 20px;
+    font-weight:1000;
+    size: 50px;
+
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-top: 100px;
+    width: 400px;
+}
+.tc{
+    font-weight: 700;
+
+}
+.btn{
+    margin-top: 15px;
+    color: white;
+    background-color: green;
+    padding: 10px;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin-left: 50px;
+   cursor: pointer;
+   
+}
+
+.emp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 200px;
+    
+}
+.is{
+    font-weight: 600;
+}
+.shop{
+    color: white;
+    background-color: green;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}

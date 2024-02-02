@@ -1,0 +1,35 @@
+.mall{
+    display: flex;
+    gap: 30px;
+
+}
+/* 
+.pro{
+    display: ;
+} */
+
+.title{
+    display: flex;
+    width: 250px;
+    font-weight: bolder;
+}
+
+.price{
+    display: flex;
+    gap: 150px;
+}
+
+.rs{
+    color: green;
+    font-weight: bold;
+}
+.del{
+    margin-top: 4.5px;
+    background-color: rgb(234, 69, 69);
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+}
+.line{
+  border: 1px solid black;
+}
